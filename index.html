@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+
+    <title>Frontend Mentor | Time tracking dashboard</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <section class="time-tracking">
+      <div class="time-tracking-user-control">
+        <div class="time-tracking-user-info">
+          <img src="images/image-jeremy.png" alt="" />
+          <div>
+            <p>Report for</p>
+            <p class="username">Jeremy Robson</p>
+          </div>
+        </div>
+        <div class="time-tracking-control">
+          <button class="active" data-period="daily">Daily</button>
+          <button data-period="weekly">Weekly</button>
+          <button data-period="monthly">Monthly</button>
+        </div>
+      </div>
+      <div class="time-tracking-details work">
+        <div class="time-details">
+          <div class="time-categories-control">
+            <p class="categories">Work</p>
+            <button><img src="images/icon-ellipsis.svg" alt="" /></button>
+          </div>
+          <div class="time">
+            <p class="current">---</p>
+            <p class="previous">---</p>
+          </div>
+        </div>
+      </div>
+      <div class="time-tracking-details play">
+        <div class="time-details">
+          <div class="time-categories-control">
+            <p class="categories">Play</p>
+            <button><img src="images/icon-ellipsis.svg" alt="" /></button>
+          </div>
+          <div class="time">
+            <p class="current">---</p>
+            <p class="previous">---</p>
+          </div>
+        </div>
+      </div>
+      <div class="time-tracking-details study">
+        <div class="time-details">
+          <div class="time-categories-control">
+            <p class="categories">Study</p>
+            <button><img src="images/icon-ellipsis.svg" alt="" /></button>
+          </div>
+          <div class="time">
+            <p class="current">---</p>
+            <p class="previous">---</p>
+          </div>
+        </div>
+      </div>
+      <div class="time-tracking-details exercise">
+        <div class="time-details">
+          <div class="time-categories-control">
+            <p class="categories">Exercise</p>
+            <button><img src="images/icon-ellipsis.svg" alt="" /></button>
+          </div>
+          <div class="time">
+            <p class="current">---</p>
+            <p class="previous">---</p>
+          </div>
+        </div>
+      </div>
+      <div class="time-tracking-details social">
+        <div class="time-details">
+          <div class="time-categories-control">
+            <p class="categories">Social</p>
+            <button><img src="images/icon-ellipsis.svg" alt="" /></button>
+          </div>
+          <div class="time">
+            <p class="current">---</p>
+            <p class="previous">---</p>
+          </div>
+        </div>
+      </div>
+      <div class="time-tracking-details selfcare">
+        <div class="time-details">
+          <div class="time-categories-control">
+            <p class="categories">Self Care</p>
+            <button><img src="images/icon-ellipsis.svg" alt="" /></button>
+          </div>
+          <div class="time">
+            <p class="current">---</p>
+            <p class="previous">---</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="attribution">Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="https://tatakga-portfolio.vercel.app/">Tatak Galih Prasetyo</a>.</div>
+
+    <script src="script/script.js"></script>
+  </body>
+</html>
